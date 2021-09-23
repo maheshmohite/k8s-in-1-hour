@@ -6,7 +6,7 @@
 * mongo.yaml
 * webapp.yaml
 
-#### commands
+#### K8s commands
 
 ##### start Minikube and check status
     minikube start --vm-driver=hyperkit 
@@ -35,7 +35,7 @@
 ##### stop your Minikube cluster
     minikube stop
 
-##### links
+#### Links
 * mongodb image on Docker Hub: https://hub.docker.com/_/mongo
 * webapp image on Docker Hub: https://hub.docker.com/repository/docker/nanajanashia/k8s-demo-app
 * k8s official documentation: https://kubernetes.io/docs/home/
