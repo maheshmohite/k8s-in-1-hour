@@ -25,7 +25,7 @@
     kubectl get pod -o wide
     kubectl get node -o wide
 
-##### get detailed info about a specifc component
+##### get detailed info about a specific component
     kubectl describe svc {svc-name}
     kubectl describe pod {pod-name}
 
