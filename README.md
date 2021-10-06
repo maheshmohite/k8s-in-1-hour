@@ -35,6 +35,10 @@
 ##### stop your Minikube cluster
     minikube stop
 
+> :warning: **Known issue - Minikube IP not accessible** 
+If you can't access the NodePort service webapp with MinikubeIP:NodePort, execute the following command:
+    minikube service webapp-service
+
 #### Links
 * mongodb image on Docker Hub: https://hub.docker.com/_/mongo
 * webapp image on Docker Hub: https://hub.docker.com/repository/docker/nanajanashia/k8s-demo-app
